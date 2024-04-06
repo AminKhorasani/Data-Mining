@@ -1,0 +1,37 @@
+
+%--------------------------------------------------------------------------
+%
+%  Seminar Template
+%  [Put Your Seminar Title Here]
+%  By: [Put Your Name Here]
+%
+%--------------------------------------------------------------------------
+
+
+
+\documentclass[oneside,a4paper,12pt]{article}
+
+\input{styles/common.tex}
+\input{styles/custom.tex}
+\usepackage{xepersian}
+\usepackage{setspace}
+\usepackage{framed}
+
+\begin{document}
+
+
+
+\include{front/info}
+\pagestyle{empty}
+
+\include{front/template/title}
+
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+%\pagenumbering{tartibi}
+
+\include{chapters/context}
+
+
+\end{document}
